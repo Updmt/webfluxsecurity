@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "fileName": "firstTestFile.txt",
+    "storageLink": "https://storage.yandexcloud.net/webflux/firstTestFile.txt",
+    "created": "2024-03-03T12:11:15",
+    "deleted": false
+  },
+  {
+    "id": 2,
+    "fileName": "secondTestFile.txt",
+    "storageLink": "https://storage.yandexcloud.net/webflux/secondTestFile.txt",
+    "created": "2024-03-03T12:11:15",
+    "deleted": false
+  }
+]

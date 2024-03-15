@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  r2dbc:
+    url: r2dbc:pool:mysql://db:3306/security_aws_db?serverTimezone=Europe/Moscow
+    username: admin
+    password: root
+  flyway:
+    url: jdbc:mysql://db:3306/security_aws_db
+    user: admin
+    password: root
+    locations: classpath:db/migration
+
+jwt:
+  password:
+    encoder:
+      secret: FZK2DZ82odqS13e8aENggaMbb_fAkl-nJL4AEVBX43g
+      iteration: 64
+      key_length: 256
+  secret: b5f59337a612a2a7dc07328f3e7d1a04722967c7f06df20a499a7d3f91ff2a7e
+  expiration: 3600
+  issuer: updmt
+
+yandex:
+  access-key-id: YCAJElMkrvnhFSR5jfkcv0nKB
+  secret-access-key: YCMXOpAYB3Pw5UPwr0EV1UIBqPTp2cUbp6mgEy9K
+  region: ru-central1
+  bucket-name: webflux
+  endpoint: https://storage.yandexcloud.net
+
+logging:
+  level:
+    org.springframework.web.reactive.function.client: DEBUG

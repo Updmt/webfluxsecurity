@@ -1,0 +1,12 @@
+{
+  "username": "testUserCreation",
+  "role": "USER",
+  "first_name": "testUserCreation",
+  "last_name": "testUserCreation",
+  "id": 2,
+  "enabled": true,
+  "created_at": "2024-03-03T09:12:47.2450407",
+  "updated_at": "2024-03-03T09:12:47.2450407",
+  "deleted": false,
+  "events": null
+}

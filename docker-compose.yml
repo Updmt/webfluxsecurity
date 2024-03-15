@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    image: webfluxapp
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_R2DBC_URL: r2dbc:pool:mysql://db:3306/security_aws_db?autoReconnect=true&useSSL=false
+      SPRING_R2DBC_USERNAME: admin
+      SPRING_R2DBC_PASSWORD: root
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0.33
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: security_aws_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: root

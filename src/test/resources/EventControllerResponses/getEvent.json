@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "created": null,
+  "fileGetDto": {
+    "id": 1,
+    "fileName": "testFileName",
+    "storageLink": "testStorageLink",
+    "created": null,
+    "deleted": false
+  }
+}

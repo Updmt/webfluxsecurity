@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "username": "testUser",
+  "role": "ADMIN",
+  "first_name": "Test",
+  "last_name": "User",
+  "enabled": true,
+  "created_at": null,
+  "updated_at": null,
+  "deleted": false,
+  "events": [
+    {
+      "id": 1,
+      "created": null,
+      "fileGetDto": {
+        "id": 1,
+        "fileName": "testFileName",
+        "storageLink": "testStorageLink",
+        "created": null,
+        "deleted": false
+      }
+    }
+  ]
+}
