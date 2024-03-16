@@ -3,11 +3,11 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:pool:mysql://db:3306/security_aws_db?serverTimezone=Europe/Moscow
+    url: r2dbc:pool:mysql://localhost:3307/security_aws_db_docker?serverTimezone=Europe/Moscow
     username: admin
     password: root
   flyway:
-    url: jdbc:mysql://db:3306/security_aws_db
+    url: jdbc:mysql://localhost:3307/security_aws_db_docker
     user: admin
     password: root
     locations: classpath:db/migration
