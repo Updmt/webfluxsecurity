@@ -1,5 +1,6 @@
 package com.updmtProjects.webfluxsecurity.IntegrationTest;
 
+import com.updmtProjects.webfluxsecurity.AbstractIntegrationTest;
 import com.updmtProjects.webfluxsecurity.dto.AuthRequestDto;
 import com.updmtProjects.webfluxsecurity.dto.AuthResponseDto;
 import com.updmtProjects.webfluxsecurity.entity.User;

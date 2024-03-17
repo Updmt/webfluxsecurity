@@ -1,5 +1,6 @@
 package com.updmtProjects.webfluxsecurity.UnitTest.managementServiceTest;
 
+import com.updmtProjects.webfluxsecurity.AbstractIntegrationTest;
 import com.updmtProjects.webfluxsecurity.dto.EventDto;
 import com.updmtProjects.webfluxsecurity.dto.UserResponseDto;
 import com.updmtProjects.webfluxsecurity.dto.UserUpdateDto;
@@ -29,7 +30,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
-public class UserManagementTest {
+public class UserManagementTest extends AbstractIntegrationTest {
 
     @Autowired
     private UserManagementService userManagementService;

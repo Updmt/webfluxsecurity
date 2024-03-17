@@ -4,6 +4,7 @@ import static org.mockito.Mockito.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.updmtProjects.webfluxsecurity.AbstractIntegrationTest;
 import com.updmtProjects.webfluxsecurity.dto.FileDto;
 import com.updmtProjects.webfluxsecurity.entity.Event;
 import com.updmtProjects.webfluxsecurity.entity.File;
@@ -28,7 +29,7 @@ import reactor.test.StepVerifier;
 import java.time.LocalDateTime;
 
 @SpringBootTest
-public class FileManagementServiceTest {
+public class FileManagementServiceTest extends AbstractIntegrationTest {
 
     @SpyBean
     private FileManagementService fileManagementService;

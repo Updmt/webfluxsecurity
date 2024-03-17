@@ -1,5 +1,6 @@
 package com.updmtProjects.webfluxsecurity.IntegrationTest;
 
+import com.updmtProjects.webfluxsecurity.AbstractIntegrationTest;
 import com.updmtProjects.webfluxsecurity.TestUtils;
 import com.updmtProjects.webfluxsecurity.entity.Event;
 import com.updmtProjects.webfluxsecurity.entity.File;

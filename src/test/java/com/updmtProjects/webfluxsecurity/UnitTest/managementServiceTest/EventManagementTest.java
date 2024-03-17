@@ -1,5 +1,6 @@
 package com.updmtProjects.webfluxsecurity.UnitTest.managementServiceTest;
 
+import com.updmtProjects.webfluxsecurity.AbstractIntegrationTest;
 import com.updmtProjects.webfluxsecurity.dto.EventDto;
 import com.updmtProjects.webfluxsecurity.dto.FileDto;
 import com.updmtProjects.webfluxsecurity.entity.Event;
@@ -29,7 +30,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
-public class EventManagementTest {
+public class EventManagementTest extends AbstractIntegrationTest {
 
     @SpyBean
     private EventManagementService eventManagementService;

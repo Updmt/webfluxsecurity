@@ -2,6 +2,7 @@ package com.updmtProjects.webfluxsecurity.IntegrationTest;
 
 import static net.javacrumbs.jsonunit.assertj.JsonAssertions.assertThatJson;
 
+import com.updmtProjects.webfluxsecurity.AbstractIntegrationTest;
 import com.updmtProjects.webfluxsecurity.TestUtils;
 import com.updmtProjects.webfluxsecurity.dto.UserRequestDto;
 import com.updmtProjects.webfluxsecurity.dto.UserUpdateDto;
